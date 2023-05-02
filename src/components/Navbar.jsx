@@ -20,11 +20,11 @@ const Navbar = () => {
         window.scrollTo(0,0);
        }}
        >
-        <img src={logo} alt='logo' className='w-9 h-9 object-contain'/>
-        <p className='text-white text-[18px] font-bold cursor-pointer flex'>
+        <img src={logo} alt='logo' className=' h-9 object-contain'/>
+        {/* <p className='text-white text-[18px] font-bold cursor-pointer flex'>
         Aniket Sahu&nbsp;
-        <span className='sm:block hidden'>| Web developer</span>
-        </p>
+        <span className='sm:block hidden'>| Web developer</span> */}
+        {/* </p> */}
        </Link>
 
        <ul className='list-none hidden sm:flex flex-row gap-10'>
