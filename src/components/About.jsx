@@ -42,15 +42,14 @@ const About = () => {
       variants={fadeIn("","",0.1,1)} 
       className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a 2nd year Undergraduate student currently pursuing my Computer 
-        Engineering degree at Fr. Conceicao Rodrigues Institute of Technology. <br/>
-
-        →Full Stack web developer and a Competitive Programmer. <br/>
-        →I am expert in the following programming languages<br/>
-        Client-side Scripting : HTML, CSS, JavaScript.<br/>
-        Server-side Scripting : Java, C, C++<br/>
-        →Expert in figma for UI designing.<br/>
-        →I also do freelance for website and application development. Minor 
+        I am a 2nd year Undergraduate student currently pursuing my Computer Engineering degree at Fr. Conceicao Rodrigues Institute of Technology. <br/>
+        <br/>
+        → Full Stack web developer and a Competitive Programmer. <br/>
+        → I am expert in the following programming languages<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;Client-side Scripting : HTML, CSS + tailwind, JavaScript, React.<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;Server-side Scripting : Java, C, C++<br/>
+        → Expert in figma for UI designing.<br/>
+        → I also do freelance for website. Minor 
         projects are also accepted.
       </motion.p>
 

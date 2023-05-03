@@ -7,6 +7,9 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import java from "./tech/java.png";
+import cp from "./tech/cp.png";
+import cpp from "./tech/cpp.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -29,8 +32,13 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import portfolio from "./portfolio.png";
+import lms from "./lms.png";
 
 export {
+  java,
+  cp,
+  cpp,
   logo,
   backend,
   creator,
@@ -59,4 +67,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  portfolio,
+  lms,
 };

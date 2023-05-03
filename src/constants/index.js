@@ -6,6 +6,9 @@ import {
     javascript,
     typescript,
     html,
+    java,
+    cpp,
+    cp,
     css,
     reactjs,
     redux,
@@ -23,6 +26,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    portfolio,
+    lms,
   } from "../assets";
   
   export const navLinks = [
@@ -30,9 +35,13 @@ import {
       id: "about",
       title: "About",
     },
+    // {
+    //   id: "work",
+    //   title: "Work",
+    // },
     {
-      id: "work",
-      title: "Work",
+      id: "project",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -46,11 +55,11 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "UI designer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Freelancer",
       icon: backend,
     },
     {
@@ -69,49 +78,49 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "Tailwind CSS",
+      icon: tailwind,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "JavaScript",
+      icon: javascript,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
+      name: "figma",
+      icon: figma,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "java",
+      icon: java,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "c_programming",
+      icon: cp,
     },
+    {
+      name: "cpp",
+      icon: cpp,
+    },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
@@ -198,16 +207,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "My portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "My personal portfolio website, which provides an in-depth insight into my coding journey and experiences thus far. It's a platform designed to showcase my skills, achievements, and passions, while also offering a glimpse into who I am as an individual.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "threeJs",
           color: "green-text-gradient",
         },
         {
@@ -215,49 +224,45 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: portfolio,
+      source_code_link: "https://github.com/Aniketsahu28/My-3D-portfolio",
+    },
+    {
+      name: "LMS",
+      description:
+        "Learning Management System (LMS) is a learning platform that can cater to the needs of the students and teachers as the platform aims to create a holistic environment.",
+      tags: [
+        {
+          name: "htmlcss",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Sql-Aws",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Nodejs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: lms,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Foot Truck",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
+          name: "Html",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Css",
           color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
       source_code_link: "https://github.com/",
     },
   ];
