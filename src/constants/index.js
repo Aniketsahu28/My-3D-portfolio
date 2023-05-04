@@ -28,6 +28,7 @@ import {
     threejs,
     portfolio,
     lms,
+    food_truck,
   } from "../assets";
   
   export const navLinks = [
@@ -228,30 +229,30 @@ import {
       source_code_link: "https://github.com/Aniketsahu28/My-3D-portfolio",
     },
     {
-      name: "LMS",
+      name: "LMS UI",
       description:
         "Learning Management System (LMS) is a learning platform that can cater to the needs of the students and teachers as the platform aims to create a holistic environment.",
       tags: [
         {
-          name: "htmlcss",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "Sql-Aws",
+          name: "css",
           color: "green-text-gradient",
         },
-        {
-          name: "Nodejs",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "Nodejs",
+        //   color: "pink-text-gradient",
+        // },
       ],
       image: lms,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Aniketsahu28/Learning-Management-System/tree/master",
     },
     {
-      name: "Foot Truck",
+      name: "Foot Truck UI",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Our food ordering website's frontend allows users to browse a variety of food options and place orders directly. The website's design is visually appealing and user-friendly, with clear menus and easy navigation.",
       tags: [
         {
           name: "Html",
@@ -262,8 +263,8 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: food_truck,
+      source_code_link: "https://github.com/Aniketsahu28/Food-truck-only-fontend-",
     },
   ];
   

@@ -34,6 +34,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import portfolio from "./portfolio.png";
 import lms from "./lms.png";
+import food_truck from "./food_truck.png";
 
 export {
   java,
@@ -69,4 +70,5 @@ export {
   tripguide,
   portfolio,
   lms,
+  food_truck,
 };
