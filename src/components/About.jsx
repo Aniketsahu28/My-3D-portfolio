@@ -44,11 +44,12 @@ const About = () => {
       >
         I am a 2nd year Undergraduate student currently pursuing my Computer Engineering degree at Fr. Conceicao Rodrigues Institute of Technology. <br/>
         <br/>
-        → Full Stack web developer and a Competitive Programmer. <br/>
+        → Front-end developer and a Competitive Programmer. <br/>
         → I am expert in the following programming languages<br/>
-        &nbsp;&nbsp;&nbsp;&nbsp;Client-side Scripting : HTML, CSS + tailwind, JavaScript, React.<br/>
-        &nbsp;&nbsp;&nbsp;&nbsp;Server-side Scripting : Java, C, C++<br/>
-        → Expert in figma for UI designing.<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;Client-side Scripting : <span className='font-bold'>HTML, CSS + tailwind, JavaScript.</span> <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;Server-side Scripting : <span className='font-bold'>Java, C, C++</span><br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;Basics of <span className='font-bold'>React</span> and <span className='font-bold'>mongodb</span><br/>
+        → Expert in <span className='font-bold'>figma</span> for UI designing.<br/>
         → I also do freelance for website. Minor 
         projects are also accepted.
       </motion.p>
