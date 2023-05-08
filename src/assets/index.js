@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import linkedin from "./linkedin.png";
 
 import java from "./tech/java.png";
 import cp from "./tech/cp.png";
@@ -37,6 +38,7 @@ import lms from "./lms.png";
 import food_truck from "./food_truck.png";
 
 export {
+  linkedin,
   java,
   cp,
   cpp,

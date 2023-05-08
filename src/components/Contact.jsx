@@ -5,6 +5,7 @@ import {styles} from '../styles'
 import { EarthCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
 import { slideIn } from "../utils/motion"
+import {linkedin,github} from "../assets"
 
 const Contact = () => {
   const formRef = useRef();
@@ -96,12 +97,19 @@ const Contact = () => {
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
             />
           </label>
+          <div className="flex justify-between">
           <button 
             type="submit"
-            className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+            className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl flex"
           >
             {loading ? 'Sending...' : 'Send'}
           </button>
+          <div className="flex ">
+          <a href="https://www.linkedin.com/in/aniket-sahu-a99343228/"><img src={linkedin} className="h-11 mr-5 cursor-pointer"/></a>
+          <a href="https://github.com/Aniketsahu28"><img src={github} className="h-12 cursor-pointer"/></a>
+          </div>
+          </div>
+          
         </form>
       </motion.div>
 
