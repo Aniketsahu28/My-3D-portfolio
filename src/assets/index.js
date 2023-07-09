@@ -24,6 +24,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import webflow from "./tech/webflow.png";
+import brewingIllusion from "./brewingIllusion.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -36,8 +38,11 @@ import tripguide from "./tripguide.png";
 import portfolio from "./portfolio.png";
 import lms from "./lms.png";
 import food_truck from "./food_truck.png";
+import taazaKhabar from "./taazaKhabar.png"
+import deploy from "./rocket.png"
 
 export {
+  webflow,
   linkedin,
   java,
   cp,
@@ -73,4 +78,7 @@ export {
   portfolio,
   lms,
   food_truck,
+  taazaKhabar,
+  brewingIllusion,
+  deploy
 };
