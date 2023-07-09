@@ -214,27 +214,27 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "My portfolio",
-    description:
-      "My personal portfolio website, which provides an in-depth insight into my coding journey and experiences thus far. It's a platform designed to showcase my skills, achievements, and passions, while also offering a glimpse into who I am as an individual. It provides insight into my personality and work ethic.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "threeJs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: portfolio,
-    source_code_link: "https://github.com/Aniketsahu28/My-3D-portfolio",
-  },
+  // {
+  //   name: "My portfolio",
+  //   description:
+  //     "My personal portfolio website, which provides an in-depth insight into my coding journey and experiences thus far. It's a platform designed to showcase my skills, achievements, and passions, while also offering a glimpse into who I am as an individual. It provides insight into my personality and work ethic.",
+  //   tags: [
+  //     {
+  //       name: "React",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "threeJs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: portfolio,
+  //   source_code_link: "https://github.com/Aniketsahu28/My-3D-portfolio",
+  // },
   {
     name: "Taaza Khabar",
     description:
@@ -287,23 +287,23 @@ const projects = [
     image: brewingIllusion,
     deployment_link: "https://brewing-illusions-abhi.webflow.io/",
   },
-  {
-    name: "Foot Truck UI",
-    description:
-      "Our food ordering website's frontend allows users to browse a variety of food options and place orders directly. The website's design is visually appealing and user-friendly, with clear menus and easy navigation.",
-    tags: [
-      {
-        name: "Html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Css",
-        color: "green-text-gradient",
-      },
-    ],
-    image: food_truck,
-    source_code_link: "https://github.com/Aniketsahu28/Food-truck-only-fontend-",
-  },
+  // {
+  //   name: "Foot Truck UI",
+  //   description:
+  //     "Our food ordering website's frontend allows users to browse a variety of food options and place orders directly. The website's design is visually appealing and user-friendly, with clear menus and easy navigation.",
+  //   tags: [
+  //     {
+  //       name: "Html",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Css",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: food_truck,
+  //   source_code_link: "https://github.com/Aniketsahu28/Food-truck-only-fontend-",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
