@@ -189,28 +189,21 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I'm delighted to provide a testimonial for our college fest webiste. The platform is engaging, user-friendly and captured the spirit of our event. Their commitment were commendable, contributing significant to our fest's success.",
+    name: "Thejus Pradeep",
+    designation: "Joint Secretary",
+    company: "Student Council",
+    image: "https://media.licdn.com/dms/image/D4D03AQEYXWWjMXZNFQ/profile-displayphoto-shrink_800_800/0/1670827775156?e=1700697600&v=beta&t=4j_W79Jb16zXGToUFk3EcNTNrPi8cy6AW9gZKYoBqug",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "This Testimonial is for the editing and 3D modeling website 'Brewing illusion'. The flexibility it offers across screens is nothing short of remarkable, ensuring a seamless experience that's both user-friendly and visually stunning.",
+    name: "Abhishek sahu",
+    designation: "",
+    company: "",
+    image: "https://media.licdn.com/dms/image/D4D03AQHjR2Kf4Jgpmg/profile-displayphoto-shrink_800_800/0/1693368535143?e=1700697600&v=beta&t=8xtA7D1xf4eLaOrANFyXAeLwGYhp_p-j_I9RtegDZHI",
   },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+
 ];
 
 const projects = [
